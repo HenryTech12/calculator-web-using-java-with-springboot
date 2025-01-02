@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*, *::before , *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+}
+form {
+  border: 3px solid grey;
+  border-radius: 5px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4,60px);
+  grid-auto-rows: minmax(60px , auto);
+  justify-content: space-evenly;
+  grid-gap: 0.5rem;
+  
+}
+.op {
+  color: blue;
+}
+.opE {
+  background: blue;
+  color: white;
+}
+.opH {
+  color: #EE4444;
+}
+button {
+  border-radius: 50px;
+  font-size: 2rem;
+  font-weight: bolder;
+  background: #1B1B21;
+  color: white;
+  border: none;
+  outline: none;
+  font-family: 'Noto sans';
+}
+.screen-container {
+  overflow-wrap: break-word;
+  width: 90%;
+  display: block;
+  margin: 3rem auto;
+  align-content: center;
+  vertical-align: center;
+  min-height: 8rem;
+  height: auto;
+  font-family: 'Rubik';
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 0.5rem;
+  outline: none;
+  font-size: 1.7rem;
+  background: black;
+  color: white;
+  caret-color: blue;
+  text-align: right;
+}
